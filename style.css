@@ -1,0 +1,59 @@
+* body {
+    font: 16px/28px arial, sans-serif;
+    background-color: rgb(235, 143, 148);
+    color: black;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(221, 228, 128);
+}
+
+.header {
+    padding: 15px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container .header ul {
+    margin-left: -40px;
+}
+
+.header {
+    text-decoration: none;
+    color: rgb(83, 9, 61);
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 380px;
+    background-image: url(bg\ vcode.jpg);
+    background-size: cover;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content .penulis {
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.content .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.content p {
+    text-align: justify;
+}
